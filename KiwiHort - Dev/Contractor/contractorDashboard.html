@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+        <title>Contactor Dashboard</title>
+        <link rel="stylesheet" href="../css/contractorDashboard.css">
+    </head>
+    <body>
+        <script src="../js/contractorDashboard.js" type="text/javascript"></script>
+        <script src="../js/jquery.js" type="text/javascript"></script>
+        <script src="../js/jquery-ui.js" type="text/javascript"></script>
+        
+        <div class="top-nav">
+<!--
+            <div class="top-nav-left">
+                <img src="../img/menu-icon.png" class="menu-icon">
+                <h3>aMenu</h3>
+            </div>
+-->
+            <div class="top-nav-middle">
+                <h3>Contractor Dashboard</h3>
+            </div>
+            <div class="top-nav-right">
+                <div class="profile-holder" onclick="toggleAccountDropdown()">
+                    <img src="../img/profilePicture1.png" class="profile-image">
+                    <h3>John Doe</h3><img src="../img/arrow-down.png" class="down-arrow">
+                </div>
+                <div class="notifiation-holder">
+                    <div class="single-notification-icon">
+                        <img src="../img/notification-icon.png" class="notification-icon" onclick="toggleNotifications()">
+                    </div>
+                    <div class="single-notification-icon">
+                         <img src="../img/notification-icon-message.png" class="notification-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left-nav">
+            <div class="left-nav-top">
+                <h3>Menu</h3>
+            </div>
+            <div class="left-nav-list">
+                <ul>
+                    <li class="li-active"><img src="../img/dashboard-icon.png" class="nav-icon"><a href="#">Dashboard</a><img src="../img/nav-active-arrow.png" class="nav-active-arrow"></li>
+                    <li><img src="../img/people-icon.png" class="nav-icon"><a href="#">Worker Management</a></li>
+                    <li><img src="../img/calender-icon.png" class="nav-icon"><a href="#">Organiser</a></li>
+                    <li><img src="../img/weather-icon2.png" class="nav-icon"><a href="#">Weather</a></li>
+                    <li><img src="../img/icon.png" class="nav-icon"><a href="#">Budget</a></li>
+                    <li><img src="../img/payroll-icon.png" class="nav-icon"><a href="#">Payroll</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            
+            
+        </div>
+        <div class="account-dropdown">
+            <ul class="dropdown-button">
+                <li><a href="#">Profile Settings</a></li>
+                <li><a href="#">Sign Out</a></li>
+            </ul>
+        </div>
+        
+        
+        <div class="notification-modal">
+            <div class="notification-modal-background-container">
+                <img src="../img/notification-background.png" class="notification-modal-background-image">
+            </div>
+            <div class="notification-modal-top">
+                <h3>Weather Update</h3>
+                <h4 onclick="toggleNotificationModal()">X</h4>
+            </div>
+            <div class="notification-modal-body">
+                <p>The weather today is looking good</p>
+                <div class="notification-modal-bottom">
+                    <button type="button" onclick="toggleNotificationModal()" class="notification-button n-b-1">Go to Weather</button>
+                    <button type="button" onclick="toggleNotificationModal()" class="notification-button n-b-2">Close</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="notification-window">
+                <div class="notification-window-top">
+                    <div class="notification-window-top-left">
+                        <h3>Recent Notifications</h3>
+                    </div>
+                    <div class="notification-window-top-right">
+                        <h3><a href="#" onclick="toggleNotifications()">X</a></h3>
+                    </div>
+                </div>
+                <div class="notification-list">
+<!--                    <h3>No notifications to display.</h3>-->
+                    
+                   
+                    <div class="single-notification" onclick="toggleNotificationModal()">
+                        <div class="single-notification-image">
+                            <img src="../img/notification-icon-alert.png" class="single-notification-single-image">
+                        </div>
+                        <div class="single-notification-text">
+                            <div class="single-notification-text-top">
+                                <h3 style="float: left">Weather Update</h3>
+                                <h4 style="float: right">20mins ago</h4>
+                            </div>
+                            <div class="single-notification-text-bottom">
+                                <h3>Click to view weather update information</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-notification">
+                        <div class="single-notification-image">
+                            <img src="../img/notification-icon-alert.png" class="single-notification-single-image">
+                        </div>
+                        <div class="single-notification-text">
+                            <div class="single-notification-text-top">
+                                <h3 style="float: left">Notification Title</h3>
+                                <h4 style="float: right">25th Oct</h4>
+                            </div>
+                            <div class="single-notification-text-bottom">
+                                <h3>Notification Description Here.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-notification">
+                        <div class="single-notification-image">
+                            <img src="../img/notification-icon-alert.png" class="single-notification-single-image">
+                        </div>
+                        <div class="single-notification-text">
+                            <div class="single-notification-text-top">
+                                <h3 style="float: left">Notification Title</h3>
+                                <h4 style="float: right">20th Oct</h4>
+                            </div>
+                            <div class="single-notification-text-bottom">
+                                <h3>Notification Description Here.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
+

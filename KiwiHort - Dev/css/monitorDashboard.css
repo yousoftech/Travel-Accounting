@@ -1,0 +1,250 @@
+﻿
+
+
+
+
+
+
+#cph_mainSection_dl_Farm {
+
+}
+
+#cph_mainSection_dl_Mcat {
+
+}
+
+#cph_mainSection_dl_Cat {
+
+}
+
+#cph_mainSection_dl_Contractor {
+
+}
+
+
+
+
+
+
+
+
+.monitor-budget-container {
+
+}
+
+.monitor-budget-container select {
+    background-color: #FFF;
+    width: 250px;
+    border: 1px #CCC solid;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    color: #252525;
+}
+
+.monitor-budget-container label {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    color: #252525;
+    margin-bottom: 1px;
+}
+
+.budget-div {
+    width: 250px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+#cph_mainSection_txt_amount {
+    background-color: #FFF;
+    width: 235px;
+    border: 1px #CCC solid;
+    margin-left: 5px;
+    height: 21px;
+}
+
+#cph_mainSection_txt_note {
+    background-color: #FFF;
+    width: 240px;
+    height: 70px;
+    border: 1px #CCC solid;
+    resize: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+#cph_mainSection_btn_Submit {
+    background-color: #89b53d;
+    width: 123px;
+    margin-right: 0px;
+    color: #FFF;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+#cph_mainSection_btn_Submit:hover {
+    opacity: 1;
+}
+
+#cph_mainSection_btn_cancel {
+    background-color: #444;
+    width: 123px;
+    margin-left: 0px;
+    color: #FFF;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#cph_mainSection_btn_cancel:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+.a-heading {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-bottom: 5px;
+}
+
+.a-heading h2 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #89b53d;
+}
+
+
+
+
+
+
+
+
+.farm-contractor {
+    background-color: transparent;
+    height: 60px;
+    width: 520px;
+    margin-top: 10px;
+    border-bottom: 1px #CCC solid;
+    padding-left: 10px;
+}
+
+.main-sub {
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: transparent;
+    height: 60px;
+    width: 520px;
+    border-bottom: 1px #CCC solid;
+}
+
+.amount-note {
+    background-color: transparent;
+    height: 110px;
+    width: 520px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+
+.budget-farmlist {
+    float: left;
+}
+
+.budget-contractor {
+    float: left;
+    margin-left: 10px;
+}
+
+.budget-main-cat {
+    float: left;
+}
+
+.budget-sub-cat {
+    float: left;
+    margin-left: 10px;
+}
+
+
+.budget-amount {
+    float: left;
+}
+
+.budget-note {
+    float: left;
+    margin-left: 10px;
+}
+
+.budget-buttons {
+    margin-top: 29px;
+}
+
+
+.budget-table {
+    width: 750px;
+    height: 300px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    color: #252525;
+    position: absolute;
+    top: 10px;
+    left: 550px;
+}
+
+.budget-table .a-heading {
+    padding-bottom: 16px;
+}
+
+.budget-table tr th {
+    text-align: left;
+    font-weight: 400;
+    color: #2c2c2c;
+}
+
+.budget-table tr:not(:first-child) {
+    height: 30px;
+    border-bottom: 1px #CCC solid;
+}
+
+.budget-table tbody tr td {
+    width: 100px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-widtrh: 550px) {
+    .monitor-budget-container {
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+
+
+

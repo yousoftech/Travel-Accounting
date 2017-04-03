@@ -1,0 +1,884 @@
+﻿
+
+
+/** {
+    -webkit-appearance: none;
+}*/
+
+
+
+.workingSingleItem {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.workingTodayBoxImage {
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    float: left;
+}
+
+.workingSingleItem h3 {
+    float: left;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    margin: 14px 0px 0px 8px;
+}
+
+
+
+
+
+
+
+/*.graphPlaceholder {
+    width: 48.8vw;
+    height: calc(40vh + 20px);
+    position: absolute;
+    margin-top: 1.1vh;
+    margin-left: 38.8vw;
+    border: 1px #bbb solid;
+    background-color: rgba(255,255,255,0.8);
+    box-sizing: border-box;
+}
+
+
+
+#cph_mainSection_Chart2 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#cph_mainSection_Chart1 {
+    width: 100% !important;
+    height: 100% !important;
+}*/
+
+
+
+
+
+
+.hide {
+    display: none;
+}
+
+
+
+
+#cph_mainSection_cbo_contractors {
+    color: #444;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-top: -1px;
+    background-color: #FFF;
+    border: 1px #ccc solid;
+    border-radius: 2px;
+    margin-left: 10px;
+    width: 165px;
+    font-weight: 300;
+}
+
+#cph_mainSection_chk_workers td {
+    color: #252525;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#cph_mainSection_cbo_weekStart {
+    margin-left: 0px;
+    float: left;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+    background-color: #FFF;
+    border: 1px #ccc solid;
+    border-radius: 2px;
+}
+
+#cph_mainSection_cbo_weekStart2 {
+    margin-top: -26px;
+    margin-left: 7vw;
+    float: left;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+    color: #252525;
+}
+
+
+
+
+.workerList {
+    width: 18.3vw;
+    height: 885px;
+    border: 1px #bbb solid;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.workerListSub {
+    height: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.weekList {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.workersWeekListSep {
+    margin-top: 25px;
+    width: 100%;
+    height: 1px;
+    background-color: #bbb;
+}
+
+.workerTimeList {
+    position: absolute;
+    top: 20px;
+    width: 47vw;
+    height: 260px;
+    left: 21vw;
+    border: 1px #bbb solid;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+#cph_mainSection_dgd_workers {
+    width: 100%;
+}
+
+#cph_mainSection_dgd_workers tbody {
+    height: 20px;
+}
+
+#cph_mainSection_dgd_workers tbody tr td a {
+    color: #252525;
+    text-decoration: none;
+    border: 1px #252525 solid;
+    margin-left: 10px;
+    margin-right: -21px;
+    padding: 0px 5px 0px 5px;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+
+#cph_mainSection_dgd_workers tbody tr td a:hover {
+    background-color: #252525;
+    color: #f2f4f3;
+}
+
+
+
+
+
+#cph_mainSection_dgd_workers tr {
+    height: 40px;
+    background-color: #ddd;
+    opacity: 0.6;
+    border: 3px #f2f4f3 solid;
+    border-radius: 5px;
+}
+
+#cph_mainSection_dgd_workers tr td {
+    color: #252525;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#cph_mainSection_dgd_workers tr:not(:first-child) td {
+    height: 30px;
+}
+
+.tableHeader {
+    float: left;
+}
+
+.tableHeader h3 {
+    float: left;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.tableHeader h3:nth-child(1) {
+    margin-left: 7.8vw;
+}
+
+.tableHeader h3:nth-child(2) {
+    margin-left: 5.8vw;
+}
+
+.tableHeader h3:nth-child(3) {
+    margin-left: 4.5vw;
+}
+
+.tableHeader h3:nth-child(4) {
+    margin-left: 6.4vw;
+}
+
+.tableContent {
+    height: 200px;
+    margin-top: 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+.singleTime {
+    width: 16.39vw;
+    height: 72px;
+    border: 1px #bbb solid;
+    padding: 6px 7px 6px 7px;
+    margin-top: 5px;
+}
+
+#cph_mainSection_btn_submit {
+    width: 100%;
+    height: 30px;
+    background-color: #89b53d;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-top: 0px;
+    opacity: 0.9;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+#cph_mainSection_btn_submit:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#cph_mainSection_btn_submit {
+    top: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 300px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+
+    -webkit-appearance: none;
+
+}
+
+
+.singleTimeTitle {
+    color: #252525;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.timeStart {
+    margin-top: 3px;
+    float: left;
+    width: 70%;
+    height: 50px;
+}
+
+.timeEnd {
+    margin-top: 3px;
+    float: left;
+    width: 30%;
+    height: 50px;
+}
+
+
+
+
+.titleDropDownBox1 {
+    width: 100%;
+    height: 24px;
+}
+
+.titleDropDownBox2 {
+    width: 20vw;
+}
+
+
+
+
+.timeInput {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topStatsBox {
+    width: 70%;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.singleStat {
+    width: calc(24.9% - 20px);
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+}
+
+.singleStat:nth-child(1) {
+    border-right: 1px #BBB solid;
+}
+
+.singleStat:nth-child(2) {
+    border-right: 1px #BBB solid;
+}
+
+.singleStat:nth-child(3) {
+    border-right: 1px #BBB solid;
+}
+
+
+.singleStat h4 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+    margin-top: 0px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+
+.singleStat h3 {
+    float: left;
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 100;
+    color: #89b53d;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.singleStat h2 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #444;
+    margin-top: 40px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+.organiser-container {
+    padding: 10px;
+    width: calc(500px - 10px);
+    height: auto;
+    background-color: transparent;
+    margin-top: 200px;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.dashboard-top-bar {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.grower-label {
+    float: left;
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+}
+
+.top-bar-span-1 {
+    color: #444;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.grower-label-data {
+    float: right;
+    font-size: 16px;
+    color: red !important;
+}
+
+.grower-selection {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.top-bar-span-2 {
+    color: red;
+    font-family: 'Roboto';
+    color: #444;
+    font-weight: 400;
+}
+
+.grower-selection-data {
+    float: right;
+    font-size: 16px;
+    color: red !important;
+    width: auto;
+}
+
+
+
+.top-bar-submit {
+    margin-top: -100px;
+}
+
+
+
+
+
+.single-day-time {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #777;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+
+.single-day-time-day {
+    color: #444;
+    float: left;
+    background-color: transparent;
+    width: 120px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*16, 35*/
+
+
+
+
+.singleStat-weather {
+    width: 400px;
+    height: auto;
+    background-color: transparent;
+    float: right;
+    margin-right: 20px;
+}
+
+
+div.aw-widget-current-inner div.aw-widget-content.bg-cl, div.aw-widget-current-inner div.aw-widget-content.bg-cl a.aw-current-weather, div.aw-widget-current-inner div.aw-widget-content.bg-s, div.aw-widget-current-inner div.aw-widget-content.bg-s a.aw-current-weather {
+    border: 0px !important;
+    border: none !important;
+
+}
+
+.aw-widget-current div.aw-widget-current-inner div.aw-widget-content {
+    border: 1px #CCC solid !important;
+    background: none;
+}
+
+
+.aw-widget-36hour .bg-c, .aw-widget-36hour .tbg-c, .aw-widget-current .bg-c, .aw-widget-current .tbg-c {
+    background-image: none !important;
+}
+
+
+#link_get_widget {
+    display: none !important;
+}
+
+.aw-widget-current div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather h3 {
+    color: #444 !important;
+    font-family: Roboto !important;
+    font-weight: 100 !important;
+}
+
+.aw-widget-current div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-temperature-today b {
+    color: #444 !important;
+    font-family: Roboto !important;
+    font-weight: 100 !important;
+}
+
+.aw-widget-current div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p time {
+    color: #444 !important;
+    font-family: Roboto !important;
+    font-weight: 100 !important;
+}
+
+
+.aw-widget-current div.aw-widget-current-inner div.aw-widget-content a.aw-current-weather p span.aw-weather-description {
+    color: #444 !important;
+    font-family: Roboto !important;
+    font-weight: 100 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.worker-container {
+    float: left;
+    width: 400px;
+    height: auto;
+    background-color: transparent;
+    margin-right: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    border: 0.1px rgba(0, 0, 0, 0.1) solid;
+    padding: 0px 0px 10px 10px;
+}
+
+.worker-title {
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #444;
+    font-weight: 400;
+}
+
+.worker-time {
+    float: left;
+    width: 48%;
+    height: auto;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 400;
+    color: #89B53D;
+}
+
+.worker-time:nth-child(1) {
+    margin-right: 4%;
+}
+
+.worker-time:nth-child(2) {
+    width: 150px;
+    background-color: transparent;
+    float: right;
+    padding-right: 10px;
+}
+
+.worker-text:nth-child(4) {
+    width: 150px;
+    background-color: transparent;
+    float: right;
+    padding-right: 10px;
+}
+
+.worker-text {
+    float: left;
+    width: 48%;
+    height: auto;
+    background-color: transparent;
+    color: #89B53D;
+    margin-right: 2%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.worker-text:nth-child(4) {
+    margin-left: 2%;
+    margin-right: 0%;
+}
+
+
+#jobPortalPlaceHolder {
+    display: none;
+    position: absolute;
+    margin-top: 200px;
+    background-color: red;
+
+    width: 30%;
+    height: 680px;
+
+}
+
+.jobSearchBar {
+    width: 100%;
+    height: 40px;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+
+.singleJob {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.singleJob:not(:nth-child(2)) {
+    border-top: 10px purple solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Content Start*/
+
+
+@media screen and (max-width: 1525px) {
+
+
+    .main-content {
+        overflow-y: visible !important;
+        overflow-x: hidden;
+        height: auto !important;
+    }
+
+    .worker-container {
+        background-color: transparent;
+    }
+
+    .worker-container:nth-child(1) {
+        background-color: red;
+    }
+
+    .worker-container:nth-child(1) {
+        background-color: aqua;
+    }
+
+
+
+    .singleStat-weather {
+        position: absolute;
+        width: 850px;
+        height: 50px !important;
+        float: left;
+        margin: 0;
+        margin-top: 200px;
+        background-color: transparent;
+
+    }
+
+
+    .organiser-container {
+        background-color: transparent;
+        margin-top: 350px;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+
+
+    .worker-container {
+        background-color: transparent;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+    .worker-time {
+        background-color: transparent !important;
+    }
+
+    .worker-text {
+        background-color: transparent !important;
+    }
+
+    .worker-title {
+        background-color: transparent !important;
+        height: auto !important;
+    }
+
+
+    .worker-container:nth-child(1) {
+        background-color: transparent;
+    }
+
+    .worker-container:nth-child(1) {
+        background-color: transparent;
+    }
+
+
+
+    .singleStat-weather {
+        margin-top: 200px;
+    }
+
+    .organiser-container {
+        margin-top: 340px;
+    }
+}
+
+
+
+@media screen and (max-width: 895px) {
+    .worker-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .worker-time {
+        width: 46% !important;
+        height: 100px;
+    }
+
+    .worker-text {
+        width: 46% !important;
+        height: 100px;
+    }
+
+    .worker-title {
+        height: 40px;
+    }
+
+    .singleStat-weather {
+        margin-top: 424px;
+        width: calc(100% - 30px);
+    }
+
+    .organiser-container {
+        width: calc(100% - 20px);
+        margin-top: 560px;
+    }
+
+
+
+    .worker-title {
+        height: 40px !important;
+    }
+
+    .grower-label {
+        background-color: transparent;
+        width: 100%;
+    }
+
+    .grower-selection {
+        background-color: transparent;
+        width: 100%;
+    }
+
+    #cph_mainSection_cbo_weekStart {
+        margin-top: 0px;
+    }
+
+    #cph_mainSection_btn_submit {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 508px) {
+    .organiser-container {
+        margin-top: 600px !important;
+    }
+}
+
+@media screen and (max-width: 610px) {
+
+}
+

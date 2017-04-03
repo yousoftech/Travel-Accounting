@@ -1,0 +1,528 @@
+﻿
+
+
+/*
+    Messaging CSS Styling for all pages
+*/
+
+
+
+
+
+.message-window {
+    width: 500px;
+    height: 20px;
+    background-color: transparent;
+}
+
+
+
+/*Compose, Inbox, Sent buttons*/
+
+.messageButtons {
+    background-color: rgba(137,181,61,0.85);
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    color: #FFF;
+
+    transition: 0.2s;
+
+    -webkit-appearance: none;
+}
+
+.messageButtons:hover {
+    cursor: pointer;
+    background-color: rgba(137,181,61,1);
+}
+
+
+
+
+
+
+
+
+
+/*Compose Page*/
+
+
+.message-window #cph_mainSection_Label1 {
+    height: 20px;
+}
+
+.message-box-container {
+    width: 700px;
+    height: auto;
+    background-color: transparent;
+    margin: 20px 10px 0px 10px;
+}
+
+
+#cph_mainSection_txtto {
+    width: 99%;
+    height: 30px;
+    background-color: transparent;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+
+    padding: 0px 5px 0px 5px;
+
+    border-bottom: 1px #ccc solid;
+}
+
+#cph_mainSection_txtsubject {
+    width: 99%;
+    height: 30px;
+    background-color: transparent;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+
+    padding: 0px 5px 0px 5px;
+
+    margin-top: 10px;
+}
+
+#cph_mainSection_txtbody {
+    width: 99%;
+    height: 200px;
+    resize: none;
+    background-color: transparent;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 12px;
+
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    border: 1px #ccc solid;
+}
+
+#cph_mainSection_Button4 {
+    width: 200px;
+    height: 40px;
+    color: #FFF;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    background-color: rgba(137,181,61,1);;
+    padding: 5px;
+    -webkit-appearance: none;
+}
+
+
+#cph_mainSection_Button4:hover {
+    cursor: pointer;
+}
+
+
+
+.title-bar {
+    color: #777;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/*Inbox Page*/
+
+
+
+.inbox-sent-content {
+    overflow-y: auto;
+    height: auto;
+    background-color: transparent;
+}
+
+#cph_mainSection_GridView1 {
+    width: 100%;
+    overflow: scroll;
+    margin-top: 10px;
+}
+
+#cph_mainSection_GridView1 tbody {
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #777;
+    width: 100%;
+}
+
+#cph_mainSection_GridView1 tbody tr th {
+    display: none;
+}
+
+#cph_mainSection_GridView1 tbody t:not(:first-child) {
+
+}
+
+#cph_mainSection_GridView1 tbody tr td {
+    height: 25px;
+}
+
+#cph_mainSection_GridView1 tbody tr {
+    width: 100%;
+    display: inline-block;
+}
+
+#cph_mainSection_GridView1 tbody tr:first-child {
+    display: none;
+}
+
+
+
+
+
+#cph_mainSection_GridView1 tbody tr:hover {
+    cursor: pointer;
+    background-color: rgba(1,1,1,0.05) !important;
+}
+
+#cph_mainSection_GridView1 tbody tr td:nth-child(1) {
+    position: absolute;
+    width: 230px !important;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+    padding-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    float: left;
+}
+
+#cph_mainSection_GridView1 tbody tr td:nth-child(2) {
+    position: absolute;
+    width: 370px;
+    margin-left: 250px;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+    padding-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    float: left;
+}
+
+#cph_mainSection_GridView1 tbody tr td:nth-child(3) {
+    position: absolute;
+    width: calc(100% - 936px);
+    margin-left: 640px;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+    padding-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    float: left;
+}
+
+#cph_mainSection_GridView1 tbody tr td:nth-child(4) {
+    position: absolute;
+    width: 200px;
+    margin-left: calc(100% - 276px);
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 8px 10px 0px 10px;
+    vertical-align: middle;
+}
+
+#cph_mainSection_GridView1 tbody tr:first-child {
+    display: block;
+}
+
+#cph_mainSection_GridView1 tbody tr:not(:nth-child(1)) {
+    border-bottom: 1px #ddd solid;
+    box-sizing: border-box;
+    margin-top: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Sent Messages Page*/
+
+
+#cph_mainSection_GridView2 {
+    width: 100%;
+}
+
+#cph_mainSection_GridView2 tbody {
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #777;
+    width: 100%;
+}
+
+#cph_mainSection_GridView2 tbody t:not(:first-child) {
+
+}
+
+#cph_mainSection_GridView2 tbody tr td {
+    height: 25px;
+}
+
+#cph_mainSection_GridView2 tbody tr {
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+
+
+
+#cph_mainSection_GridView2 tbody tr:hover {
+    cursor: pointer;
+    background-color: rgba(1,1,1,0.05) !important;
+}
+
+#cph_mainSection_GridView2 tbody tr td:nth-child(1) {
+    position: absolute;
+    width: 230px !important;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+    padding-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    float: left;
+}
+
+#cph_mainSection_GridView2 tbody tr td:nth-child(2) {
+    position: absolute;
+    width: 370px;
+    margin-left: 250px;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+    padding-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    float: left;
+}
+
+#cph_mainSection_GridView2 tbody tr td:nth-child(3) {
+    position: absolute;
+    width: calc(100% - 936px);
+    margin-left: 640px;
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: middle;
+    padding-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    float: left;
+}
+
+#cph_mainSection_GridView2 tbody tr td:nth-child(4) {
+    position: absolute;
+    width: 200px;
+    margin-left: calc(100% - 276px);
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 8px 10px 0px 10px;
+    vertical-align: middle;
+}
+
+#cph_mainSection_GridView2 tbody tr:first-child {
+    display: none;
+}
+
+#cph_mainSection_GridView2 tbody tr:not(:nth-child(1)) {
+    border-bottom: 1px #ddd solid;
+    box-sizing: border-box;
+    margin-top: 33px;
+}
+
+#cph_mainSection_GridView2 tbody tr th {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    
+    .inbox-sent-content {
+        background-color: transparent;
+    }
+
+    #cph_mainSection_GridView1 tbody tr {
+        height: 80px;
+    }
+    
+    #cph_mainSection_GridView1 tbody tr td:nth-child(1) {
+        /*margin-top: 20px;  margin top on top one, margin bottom on bottom one (or just height)  , then do all the same on the SENT messages and the worker messages too  */
+        width: calc(100% - 200px) !important;
+        height: 20px;
+        padding-top: 5px;
+    }
+    
+    #cph_mainSection_GridView1 tbody tr td:nth-child(2) {
+        width: calc(100% - 50px) !important;
+        margin-left: 0px;
+        margin-top: 25px;
+        height: 20px;
+        padding-top: 5px;
+    }
+    
+    #cph_mainSection_GridView1 tbody tr td:nth-child(3) {
+        width: calc(100% - 50px);
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 20px;
+        padding-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    #cph_mainSection_GridView1 tbody tr td:nth-child(4) {
+        width: 130px;
+        margin-left: calc(100% - 180px);
+        height: auto;
+        padding-top: 0px;
+    }
+
+    #cph_mainSection_GridView1 tbody tr:not(:nth-child(1)) {
+        margin-top: 10px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .inbox-sent-content {
+        background-color: transparent;
+    }
+
+    #cph_mainSection_GridView2 tbody tr {
+        height: 80px;
+    }
+    
+    #cph_mainSection_GridView2 tbody tr td:nth-child(1) {
+        /*margin-top: 20px;  margin top on top one, margin bottom on bottom one (or just height)  , then do all the same on the SENT messages and the worker messages too  */
+        width: calc(100% - 200px) !important;
+        height: 20px;
+        padding-top: 5px;
+    }
+    
+    #cph_mainSection_GridView2 tbody tr td:nth-child(2) {
+        width: calc(100% - 50px) !important;
+        margin-left: 0px;
+        margin-top: 25px;
+        height: 20px;
+        padding-top: 5px;
+    }
+    
+    #cph_mainSection_GridView2 tbody tr td:nth-child(3) {
+        width: calc(100% - 50px);
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 20px;
+        padding-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    #cph_mainSection_GridView2 tbody tr td:nth-child(4) {
+        width: 130px;
+        margin-left: calc(100% - 180px);
+        height: auto;
+        padding-top: 0px;
+    }
+
+    #cph_mainSection_GridView2 tbody tr:not(:nth-child(1)) {
+        margin-top: 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    .message-box-container {
+        width: calc(100% - 20px);
+        height: auto;
+        background-color: transparent;
+        margin: 20px 10px 0px 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .messageButtons {
+        width: 32%;
+    }
+}

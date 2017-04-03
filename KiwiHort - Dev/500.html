@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <title>Server Error</title>
+    <link rel="stylesheet" href="404.css">
+</head>
+<body>
+    <div class="error">
+        <div class="error-body">
+
+            <!--<img src="img/sadKiwi.png" class="sad-kiwi" />-->
+            <h1 class="error-code">500</h1>
+            <h1 class="error-heading">Server Error</h1>
+            <h4 class="error-subheading">Looks like something went wrong!</h4>
+
+            <p>
+                <small>We are sorry you reveived this error. Please try again later and if the problem persists feel free to <a href="#" class="contact-link">contact us</a>.</small>
+            </p>
+            <p>
+                <a href="Home.aspx" class="return-button">Return to homepage</a>
+            </p>
+
+        </div>
+        <div class="error-footer">
+            <p>
+                <small>© Kiwihort 2016</small>
+            </p>
+        </div>
+    </div>
+
+    <script>
+			function goBack()
+			{
+			    window.location.href = "login.aspx";
+				//window.history.back();
+			}
+    </script>
+
+</body>
+</html>

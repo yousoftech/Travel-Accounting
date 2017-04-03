@@ -1,0 +1,156 @@
+﻿
+/*Page style clearing START*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 320px;
+    margin:0;
+    padding:0;
+    height: 100%;
+    
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 1.538462;
+    color: #777;
+
+    overflow-x: hidden;
+}
+
+.error {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: calc(350px + 160px);
+    height: 600px;
+    text-align: center;
+}
+
+.error-body {
+    width: 380px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.sad-kiwi {
+    width: 150px;
+    height: 150px;
+}
+
+.error-code {
+    color: #89b53d;
+    font-weight: 500;
+    
+    font-size: 100px;
+}
+
+.error-heading {
+    color: #89b53d;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 36px;
+}
+
+.error-subheading {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.error-body p {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.return-button {
+    padding: 12px 30px 12px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #89b53d;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.return-button:hover {
+    background-color: #729931;
+}
+
+.error-footer {
+    margin-top: 50px;
+}
+
+
+.contact-link {
+    text-decoration: none;
+    color: #8ab346;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.seperator-with-text {
+    width: 50%; 
+    margin: 0 auto;
+    height: 20px; 
+    border-bottom: 1px #ccc solid; 
+    text-align: center; 
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.seperator-text {
+    font-size: 13px; 
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #aaa;
+    background-color: #fff;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+/*Responsive Code Here*/
+
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .error-body {
+        width: 320px;
+    }
+    
+    
+    .error-body p {
+        width: 90%;
+    }
+    
+    
+}

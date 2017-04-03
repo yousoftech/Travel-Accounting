@@ -1,0 +1,345 @@
+﻿                         
+
+
+
+.big-button {
+    width: 200px;
+    height: 40px;
+    background-color: rgba(137,181,61,0.85);
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.2s;
+    cursor: pointer;
+    opacity: 0.95;
+}
+
+.big-button:hover {
+    opacity: 1;
+}
+
+#cph_mainSection_btn_submit {
+    margin-top: 10px;
+}
+
+.title-bar {
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    color: #777;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.times-content {
+    margin-top: 70px;
+}
+
+.times-content table {
+    width: 100%;
+}
+
+/*Add DIV that displays if no data is in table*/
+
+.times-content tbody {
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    color: #666;
+}
+
+.times-content tbody th {
+    background-color: transparent;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+
+.times-content tbody tr:not(:first-child) {
+    background-color: transparent;
+    border-top: 1px #ccc solid;
+    height: 46px;    
+}
+
+.times-content tbody tr:first-child {
+
+}
+
+.times-content tbody tr td:first-child {
+    width: 50px;
+}
+
+.times-content tbody tr td {
+    width: 130px;
+    
+}
+
+.times-content tbody tr td:nth-child(1) img {
+    height: 35px;
+    margin: 5px 0px 0px 5px;
+    border-radius: 50%;
+    width: 35px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.times-content tbody tr:nth-child(1) :nth-child(1) {
+    color: #f2f4f3;
+}
+
+
+#cph_mainSection_btn_startSubmit {
+    margin-top: 15px;
+}
+
+.times-content tbody tr td:nth-child(5) input {
+    background-color: #FFF;
+    border-radius: 2px;
+    border: 1px #ccc solid;
+    padding: 2px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.times-content tbody th:nth-child(6) {
+    margin-left: 20px;
+}
+
+.times-content tbody tr td:nth-child(6) input {
+    background-color: #FFF;
+    border-radius: 2px;
+    border: 1px #ccc solid;
+    padding: 4.75px;
+    margin-left: 0px;
+    cursor: pointer;
+    width: 70px;
+}
+
+.times-content tbody tr td:nth-child(5) input::content {
+    background-color: red;
+}
+
+.times-content tbody tr td:nth-child(5) input:first-child {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: calc(-13%);
+}
+
+
+.times-content tbody tr td:nth-child(5) input:nth-child(1):checked + input:nth-child(2) {
+    content: "05:12:00";
+    pointer-events: none;
+    background-color: #eee;
+    color: #aaa;
+}
+
+.times-content tbody tr td:nth-child(6) select {
+    width: 130px;
+    background-color: #FFF;
+    border: 1px #CCC solid;
+    padding: 5px 5px 5px 5px;
+    font-size: 13px;
+    color: #252525;
+    border-radius: 2px;
+}
+
+
+.empty-text {
+    margin: 150px 0px 0px 10px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+}
+
+.empty-text h1 {
+    font-weight: 300;
+    color: #777;
+}
+
+@media screen and (max-width: 800px) {
+
+    .times-content tbody tr td {
+        /*padding-top: 5px;
+        padding-bottom: 40px;*/
+        height: 60px;
+    }
+
+    .times-content tbody tr {
+        width: 100%;
+    }
+
+    .times-content tbody th {
+        display: none;
+    }
+
+    .times-content tbody th:nth-child(5) {
+        display: none;
+    }
+
+    .times-content tbody tr td:nth-child(5) {
+        background-color: transparent;
+        position: absolute;
+        left: 75px;
+        margin-top: 25px;
+    }
+
+    .times-content tbody th:nth-child(6) {
+        display: none;
+    }
+
+    .times-content tbody tr td:nth-child(6) {
+        background-color: transparent;
+        position: absolute;
+        left: 275px;
+        margin-top: 25px;
+    }
+
+
+
+
+
+    .times-content tbody tr td:nth-child(2) {
+        background-color: transparent;
+        position: absolute;
+        margin-top: 5px;
+    }
+
+    .times-content tbody tr td:nth-child(3) {
+        background-color: transparent;
+        position: absolute;
+        margin-left: 130px;
+        margin-top: 5px;
+    }
+
+    .times-content tbody tr td:nth-child(4) {
+        background-color: transparent;
+        position: absolute;
+        margin-left: 260px;
+        margin-top: 5px;
+    }
+
+
+    .times-content tbody tr td:nth-child(5) input:nth-child(1) {
+        background-color: red;
+        margin-top: -18px;
+        margin-left: 310px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 440px) {
+    .big-button {
+        width: calc(50% - 3px);
+    }
+    
+    .times-content table {
+        background-color: transparent;
+    }
+
+    .times-content tbody tr:not(:first-child) {
+        height: 60px !important;
+    }
+
+    .times-content tbody tr:nth-child(1) :nth-child(3) {
+        display: none;
+    }
+
+    .times-content tbody td:nth-child(3) {
+        display: none;
+    }
+
+    .times-content tbody tr:nth-child(1) :nth-child(1) {
+        display: none;
+    }
+
+    .times-content tbody td:nth-child(1) {
+        display: none;
+    }
+
+
+    .times-content tbody tr td:nth-child(5) input:first-child {
+        margin-left: 160px !important;
+    }
+
+    .times-content tbody th:nth-child(4) {
+        margin-left: 10px;
+    }
+
+    .times-content tbody tr td:nth-child(4) {
+        margin-left: 80px;
+    }
+
+    .times-content tbody tr td:nth-child(4) {
+        padding-left: 10px;
+    }
+
+    .times-content tbody th:nth-child(5) {
+        padding-left: 30px;
+    }
+
+    .times-content tbody tr td:nth-child(5) {
+        margin-left: -70px;
+    }
+
+
+    .times-content tbody tr td:nth-child(5) input {
+        margin-left: 30px;
+        
+    }
+
+    .times-content tbody th:nth-child(6) {
+        padding-left: 5px;
+    }
+
+    .times-content tbody tr td:nth-child(6) {
+        margin-left: -120px;
+    }
+
+    .times-content tbody tr td:nth-child(6) input {
+        width: 30px;
+        margin-left: 5px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .times-content tbody tr td:nth-child(5) input:first-child {
+        margin-left: calc(-10%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
